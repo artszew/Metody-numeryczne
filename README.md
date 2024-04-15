@@ -11,3 +11,5 @@ Zadanie 4 -
 Zadanie 5 - 
 
 Zadanie 6 - 
+
+Szczegóły wymagań dotyczące ogólnych zasad pisania programów, jak i poszczególnych zadań znajdują się w Issues.
