@@ -6,10 +6,8 @@ Zadanie 2 - rozwiązywanie N równań liniowych z N niewiadomymi metodą elimina
 
 Zadanie 3 - interpolacja metodą Newtona na węzłach Czebyszewa.
 
-Zadanie 4 - 
+Zadanie 4 - całkowanie numeryczne metodą Newtona-Cotesa i Gaussa.
 
-Zadanie 5 - 
+Zadanie 5 - aproksymacja wielomianowa na węzłąch Legendre'a.
 
-Zadanie 6 - 
-
-Szczegóły wymagań dotyczące ogólnych zasad pisania programów, jak i poszczególnych zadań znajdują się w Issues.
+Szczegóły wymagań dotyczące ogólnych zasad pisania programów, jak i poszczególnych zadań znajdują się plikach README odpowiednich zadań.
