@@ -1,19 +1,15 @@
-Implementacja wybranych metod numerycznych:
+Implementation of selected numerical methods:
 
-- Zadanie 1 - wyznaczanie miejsca zerowego metodą bisekcji i wyznaczania minimum funkcji metodą złotego podziału.
+- Assignment 1 - determining the zero point by bisection and determining the minimum of the function by the golden ratio method.
+- Assignment 2 - solving N linear equations with N unknowns by the Gauss-Jordan elimination method.
+- Assignment 3 - interpolation by Newton's method on Chebyshev nodes.
+- Assignment 4 - numerical integration by Newton-Cotes and Gauss methods.
+- Assignment 5 - polynomial approximation on Legendre nodes.
 
-- Zadanie 2 - rozwiązywanie N równań liniowych z N niewiadomymi metodą eliminacji Gaussa-Jordana.
+General implementation requirements:
+- To calculate the values ​​of polynomials, programs use the Horner scheme.
+- Programs do not use the pow() function to raise the base to an integer power, similarly they do not use the goto, break and continue instructions.
+- Programs do not use recursive algorithms, only iterative ones.
+- The created program should be divided into many source files, no program duplicates the same function several times unnecessarily. (From the second task, the code was written in Jupiter, whose individual code cells can be read as separate files.)
 
-- Zadanie 3 - interpolacja metodą Newtona na węzłach Czebyszewa.
-
-- Zadanie 4 - całkowanie numeryczne metodą Newtona-Cotesa i Gaussa.
-
-- Zadanie 5 - aproksymacja wielomianowa na węzłąch Legendre'a.
-
-Ogólne wymagania dotyczące implementacji:
-- Do obliczania wartości wielomianów programy wykorzystują schemat Hornera.
-- Programy nie korzystają z funkcji pow() do podnoszenia podstawy do potęgi całkowitej, podobnie nie wykorzystują instrukcji goto, break i continue.
-- Programy nie korzystają z algorytmów rekurencyjnych, tylko iteracyjnych.
-- Stworzony program powinien być podzielony na wiele plików źródłowych, żaden program nie powiela niepotrzebnie kilka razy tej samej funkcji. (Od drugiego zadania kod zaczęto pisać w jupiterze, którego poszczególne komórki kodu można odczytywać jako osobne pliki.)
-
-Szczegółowe wymagania do konkretnych zadań są opisane w plikach README w poszczególnych folderach.
+Detailed requirements for specific assignments are described in README files in individual folders.
