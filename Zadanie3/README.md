@@ -1,18 +1,20 @@
- Implementacja interpolacji metodą Newtona na węzłach Czebyszewa.
+<b> Assignment 3</b>
 
-Wytyczne do funkcjonalności:
-- Program umożliwia wybór jednej z kilku funkcji:
-a) liniowej,
+Implementation of Newton's interpolation method on Chebyshev nodes.
+
+Guidelines for functionality:
+- The program allows you to select one of several functions:
+a) linear,
 b) |x|,
-c) wielomianowej,
-d) trygonometrycznej,
-e) ich złożenia.
-- Wartości wielomianów interpolowanych należy obliczać używając schematu Hornera.
-- Wartości wielomianów interpolacyjnych należy obliczać bezpośrednio, skorzystanie ze schematu Hornera nie jest bowiem możliwe bez uprzedniego przekształcenia wielomianu interpolacyjnego do postaci kanonicznej.
-- Użytkownik wybiera: funkcję, liczbę węzłów interpolacyjnych, przedział interpolacji.
-- Położenie węzłów wyliczane jest z odpowiednich wzorów,
-- Wartości w węzłach interpolacyjnych wyliczane są przy użyciu funkcji wybranej przez użytkownika.
-- Program ma rysować wykres funkcji oryginalnej i wielomianu interpolującego oraz zaznaczać węzły interpolacji
-- W sprawozdaniu należy zamieścić przykładowe wykresy.
-- Zbadać w jaki sposób zmiana liczby węzłów wpływa na dokładność interpolacji.
-- Ile węzłów potrzeba do interpolacji wielomianu N-tego stopnia
+c) polynomial,
+d) trigonometric,
+e) their composition.
+- The values ​​of interpolated polynomials should be calculated using Horner's scheme.
+- The values ​​of interpolation polynomials should be calculated directly, because using Horner's scheme is not possible without first transforming the interpolation polynomial to the canonical form.
+- The user selects: function, number of interpolation nodes, interpolation interval.
+- The position of nodes is calculated from appropriate formulas,
+- The values ​​in interpolation nodes are calculated using a function selected by the user.
+- The program should draw a graph of the original function and interpolation polynomial and mark interpolation nodes
+- Sample graphs should be included in the report.
+- Investigate how changing the number of nodes affects the accuracy of interpolation.
+- How many nodes are needed to interpolate an N-degree polynomial
