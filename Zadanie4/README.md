@@ -1,12 +1,14 @@
-Implementacja całkowania numerycznego metodą Newtona-Cotesa i Gaussa.
+<b> Assignment 4</b>
 
-Wytyczne do funkcjonalności:
-- Kwadratury złożone Newtona-Cotesa obliczane są z dokładnością podaną przez użytkownika.
-- Odbywa się to w sposób iteracyjny.
-- W każdej iteracji ilość podprzedziałów na które podzielony jest przedział całkowania jest zwiększana, a otrzymany wynik całkowania porównywany jest z wynikiem z poprzedniej iteracji.
-- Jeśli wynik zmienił się o mniej niż dokładność podana przez użytkownika, oznacza to że dokładność całki na podanym przedziale została obliczona z zadaną dokładnością.
-- Kwadratury Gaussa obliczane są dla 2, 3, 4 i 5 węzłów.
-- Konieczne jest przeskalowanie funkcji i granic całkowania na przedział [−1, 1).
-- W sprawozdaniu należy porównać wyniki uzyskane za pomocą obu metod całkowania.
-- Należy pamiętać, że funkcje całkowane są postaci w(x) · f(x), gdzie w(x) to funkcja wagowa, przy czym w kwadraturach Gaussa funkcja wagowa jest od razu uwzględniona w metodzie.
-- Przy obliczaniu kwadratur Newtona-Cotesa trzeba więc dodać funkcję wagową.
+Implementation of numerical integration using the Newton-Cotes and Gaussian methods.
+
+Functionality guidelines:
+- Newton-Cotes complex quadratures are calculated with the accuracy specified by the user.
+- This is done iteratively.
+- In each iteration, the number of subintervals into which the integration interval is divided is increased, and the integration result obtained is compared with the result from the previous iteration.
+- If the result has changed by less than the accuracy specified by the user, it means that the accuracy of the integral on the specified interval has been calculated with the specified accuracy.
+- Gaussian quadratures are calculated for 2, 3, 4 and 5 nodes.
+- It is necessary to scale the function and integration limits to the interval [−1, 1).
+- The report should compare the results obtained using both integration methods.
+- It should be remembered that the integrated functions are of the form w(x) · f(x), where w(x) is the weighting function, where in Gaussian quadratures the weighting function is immediately included in the method.
+- When calculating Newton-Cotes quadratures, therefore, the weighting function must be added.
