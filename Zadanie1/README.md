@@ -1,4 +1,5 @@
 <b> Assignment 1 </b>
+
 Implementation of two numerical methods:
 - determining the zero using the bisection method (Stop or precision condition).
 - determining the minimum of the function on the unimodal interval using the golden ratio method.
