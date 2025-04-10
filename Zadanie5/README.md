@@ -1,9 +1,11 @@
-Implementacja aproksymacji numerycznej na węzłąch Legendre'a.
+<b> Assignment 5</b>
 
-Wytyczne do funkcjonalności:
-- [x] Program daje do wyboru kilka funkcji: liniową, moduł, wielomianową, trygonometryczną i ich złożenia.
-- [x] Do obliczania wartości wielomianów użyto schematu Hornera.
-- [x] Użytkownik wybiera aproksymowaną funkcję, przedział aproksymacji, stopień wielomianu aproksymującego oraz parametry związane z metodą całkowania takie jak ilość węzłów.
-- [x] Program wyznacza wielomian aproksymacji podanego stopnia, rysuje jego wykres (wraz z wykresem funkcji oryginalnej) i oblicza błąd aproksymacji.
-- [x] Program posiada tryb pracy, w którym użytkownika określa oczekiwany błąd aproksymacji, a program iteracyjnie dobiera stopień wielomianu aproksymacyjnego
-zaczynając od stopnia 1.
+Implementation of numerical approximation on Legendre nodes.
+
+Guidelines for functionality:
+- [x] The program offers several functions to choose from: linear, modulus, polynomial, trigonometric and their composition.
+- [x] Horner's scheme was used to calculate the values ​​of polynomials.
+- [x] The user selects the function to be approximated, the approximation interval, the degree of the approximating polynomial and parameters related to the integration method such as the number of nodes.
+- [x] The program determines the approximation polynomial of the specified degree, draws its graph (together with the graph of the original function) and calculates the approximation error.
+- [x] The program has a mode of operation in which the user specifies the expected approximation error and the program iteratively selects the degree of the approximating polynomial
+starting from degree 1.
